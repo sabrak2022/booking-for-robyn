@@ -2,11 +2,11 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('booking-cache-v1').then(function(cache) {
       return cache.addAll([
-        '/booking-pwa-wrapper/',
-        '/booking-pwa-wrapper/index.html',
-        '/booking-pwa-wrapper/manifest.json',
-        '/booking-pwa-wrapper/icons/icon-192x192.png',
-        '/booking-pwa-wrapper/icons/icon-512x512.png',
+        '/booking-for-robyn/',
+        '/booking-for-robyn/index.html',
+        '/booking-for-robyn/manifest.json',
+        '/booking-for-robyn/icons/icon-192x192.png',
+        '/booking-for-robyn/icons/icon-512x512.png',
       ]);
     })
   );
